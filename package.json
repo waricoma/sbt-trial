@@ -1,0 +1,23 @@
+{
+  "name": "sbt-trial",
+  "version": "1.0.0",
+  "description": "scala.js",
+  "main": "./target/scala-2.12/scala-js-tutorial-fastopt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sbt compile",
+    "build": "sbt fastOptJS"
+  },
+  "keywords": [
+    "scala.js"
+  ],
+  "author": "Motone Adachi",
+  "license": "ISC",
+  "devDependencies": {
+    "sbt-bin": "^0.1.2",
+    "scala-bin": "^0.3.3"
+  },
+  "dependencies": {
+    "scalajs-standalone-bin": "^0.4.3"
+  }
+}
